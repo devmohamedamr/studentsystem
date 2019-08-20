@@ -6,4 +6,4 @@
  * Time: 12:42 م
  */
 
- echo "You Have Logged out... Have a nice day";
+ echo "You Have Logged out";
