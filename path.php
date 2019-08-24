@@ -13,15 +13,5 @@ define("PDO",LIBS."/pdo");
 define("MODEL",ROOT."/model");
 define("PUBLIC",ROOT."/public");
 
-
-
 include_once PDO.'/class/class.pdowrapper.php';
-// database connection setings
-$dbConfig = array(
-    "host"=>"localhost",
-    "dbname"=>"course_mangment",
-    "username"=>"root",
-    "password"=>""
-);
-// get instance of PDO Wrapper object
-$db = new PdoWrapper($dbConfig);
+
