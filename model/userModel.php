@@ -20,7 +20,7 @@ class userModel implements core
         $this->db = new PdoWrapper($dbMyConfig);
     }
 
-    public function select()
+    public function Query()
     {
 
         $res = $this->db->pdoQuery("select * from `user`");
@@ -32,6 +32,7 @@ class userModel implements core
         }
     }
 
+    public function select($data,$where){}
     public function insert($data)
     {
         $res = $this->db->insert("user",$data)->getLastInsertId();
