@@ -11,7 +11,7 @@ define("STUDENT",APP."/student");
 define("LIBS",ROOT."/libs");
 define("PDO",LIBS."/pdo");
 define("MODEL",ROOT."/model");
-define("PUBLIC",ROOT."/public");
+
 
 include_once PDO.'/class/class.pdowrapper.php';
 
